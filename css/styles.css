@@ -1,0 +1,172 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Montserrat-Bold;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+a {
+  color: #FFBBBB;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* NOTE: Headigs */
+.big-heading {
+  font-family: black;
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* NOTE: Containers */
+.container-fluid {
+  padding: 7% 15%
+}
+
+/* NOTE: Sections */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  color: #fff;
+}
+
+/* NOTE: Navigation Bar */
+#navbar {
+  font-size: 2.50px;
+  color: #FFBBBB;
+}
+
+.nav-link {
+  color: #FFBBBB;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.nav-item {
+  padding: 20px;
+}
+
+.item-ato {
+  padding-left: 600px;
+}
+
+.navbar-brand {
+  font-family: "Ubundu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* NOTE: Dowload Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* NOTE: Title Section */
+#title {
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* NOTE: Title image */
+.title-image {
+  width: 13%;
+  transform: rotate(30deg);
+  position: absolute;
+  bottom: 4%;
+  right: 12%;
+}
+
+/* NOTE: Feature section */
+.future-box {
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* NOTE:Testimonial Section  */
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* NOTE: Press */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* NOTE: Pricing */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 2% 3%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* NOTE: cta section */
+@media screen and (max-width: 900px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    width: 40%;
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* NOTE: Footer */
+.social-icon {
+  margin: 20px 10px;
+}
